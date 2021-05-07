@@ -17,3 +17,11 @@
 13. Fibonacci ilk 20 değeri yazdıran program
 14. Fonksiyon ile Hello, World! yazdıran program
 15. Faktöriyel hesabı yapan program
+
+## Denis extra hardcore tasklar
+
+-2. Windows sil
+-1. Linux kur
+ 0. Tanriyi terk et
+
+01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
