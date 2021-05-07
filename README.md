@@ -22,3 +22,11 @@
 19. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
 19. Basit hesap makinası programı
 20. Basit hesap makinası ama işlemler fonksiyonlarda yapılacak
+
+## Denis extra hardcore tasklar
+
+- Windows sil
+- Linux kur
+- Tanriyi terk et
+
+01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
