@@ -20,8 +20,8 @@
 
 ## Denis extra hardcore tasklar
 
--2. Windows sil
--1. Linux kur
- 0. Tanriyi terk et
+- Windows sil
+- Linux kur
+- Tanriyi terk et
 
 01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
