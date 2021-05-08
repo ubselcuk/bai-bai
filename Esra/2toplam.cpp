@@ -1,13 +1,12 @@
 #include<iostream>
-using namespace std;
 int main(){
     int a,b,total;
-    cout<<"Please write the first number:"<<endl;
-    cin>>a;
-    cout<<"Please write the second number:"<<endl;
-    cin>>b;
+    std::cout<<"Please write the first number:"<<std::endl;
+    std::cin>>a;
+    std::cout<<"Please write the second number:"<<std::endl;
+    std::cin>>b;
     total=a+b;
-    cout<<"total of these numbers are "<<total<<"."<<endl;
+    std::cout<<"total of these numbers are "<<total<<"."<<std::endl;
     
 
 
