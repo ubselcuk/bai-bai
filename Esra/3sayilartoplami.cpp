@@ -1,16 +1,16 @@
 #include<iostream>
-using namespace std;
 int main(){
 
     int n,total;
     total=0;
-    cout<<"Please write the number:"<<endl;
-    cin>>n;
+    std::cout<<"Please write the number:"<<std::endl;
+    std::cin>>n;
    while(n>0){
-       n=n+1;
+      
        total=total+n;
+       n--;
 
    }
-    cout<<"Total of the sequential number:"<<total<<endl;
+    std::cout<<"Total of the sequential number:"<<total<<std::endl;
 
 }
