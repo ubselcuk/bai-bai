@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main(){
     int a = 0,b = 0;
@@ -8,6 +7,5 @@ int main(){
     printf(" \nIkinci sayiyi giriniz:");
     scanf("%d",&b);
     printf("\nGirdigin sayilarin toplami: %d",a+b);
-    getch();
     return 0;
 }
