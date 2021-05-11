@@ -1,4 +1,13 @@
-## Kodlar
+
+- [git](https://git-scm.com/)
+- [mingw](http://mingw-w64.org/doku.php)
+- [atom](https://atom.io/)
+- [vs code](https://code.visualstudio.com/)
+- [raylib](https://www.raylib.com/)
+- [tkinter](https://docs.python.org/3/library/tkinter.html)
+- [neovim](https://neovim.io/)
+
+## Basit Algoritma
 
 - N, kullanıcının girdiği bilgidir.
 
@@ -21,7 +30,25 @@
 17. Girilen N sayısının asal olup olmadığını bulan program
 19. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
 19. Basit hesap makinası programı
-20. Basit hesap makinası ama işlemler fonksiyonlarda yapılacak
+20. Basit hesap makinası ama işlemleri yaptırmak için fonksiyon kullanılacak
+21. Girilen vize ve final notlarına göre öğrencinin dersten geçip geçmediğini bulan program
+22. Girilen metindeki harflerin ASCII değerini yazdıran program
+23. Girilen metindeki harflerin ASCII değerlerine bakarak eğer küçük harfle yazıldıysa büyük hale dönüştüren program
+24. Girilen metinin tersini yazdıran program
+25. Saati ve tarihi ekrana yazan program
+26. 10'luk tabanda girilen sayının 16'lık ve 2'lik tabanda değerini yazan program   
+27. Bulunduğu klasör içerisindeki tüm dosyaların adını yazan program
+28. Yeni bir txt dosyası oluşturup bu dosyanın içine Hello, World! yazdıran program
+
+## Orta Algoritma
+
+1. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
+2. İlk progamı geliştireceğiz ve txt içerisinde kayıt edilen verileri bir algoritma ile şifreleyeceğiz. Doğrudan txt'yi açtığımızda veriler okunamaz olmalı.
+3. Grafik kütüphanelerinden birisini kullanarak pong oyunu yapın.
+
+## Boris isteğe bağlı tatsız tasklar
+
+- Windows subsystem for linux nedir öğrenin, kullanmaya çalışın  
 
 ## Denis extra hardcore tasklar
 
