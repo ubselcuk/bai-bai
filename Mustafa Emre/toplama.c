@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a = 0,b = 0;
+    int a,b;
     printf("Ilk sayiyi giriniz:");
     scanf("%d",&a);
     printf(" \nIkinci sayiyi giriniz:");
