@@ -57,3 +57,9 @@
 - Tanriyi terk et
 
 01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
+
+## Boris icin ozel tasklar
+
+1. Docker kur
+2. Docker ile nginx (yada herahngi bisey bana farketmez) aya kaldir
+3. Kendin uygulamani dockerize et
