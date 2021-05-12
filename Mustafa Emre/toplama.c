@@ -7,6 +7,5 @@ int main(){
     printf(" \nIkinci sayiyi giriniz:");
     scanf("%d",&b);
     printf("\nGirdigin sayilarin toplami: %d",a+b);
-    printf("deneme");
     return 0;
 }
