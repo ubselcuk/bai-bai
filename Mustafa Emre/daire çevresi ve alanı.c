@@ -6,7 +6,7 @@ int main(){
 	printf("dairenin yaricapi: ");
 	scanf("%f",&r);
     if (r<0){
-        printf("negatif uzunluk olmaz.")
+        printf("negatif uzunluk olmaz.");
     }
     else{
         printf("\ndairenin cevresinin uzunlugu:%f",(2*pi*r));
