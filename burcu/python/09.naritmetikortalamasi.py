@@ -4,6 +4,6 @@ c = n
 while n>0:
     a = int(input("Sayıları girin: "))
     b = a + b
-    n-=1
+    n -= 1
 ort = b / c
 print("Aritmetik ortalama:",ort)
