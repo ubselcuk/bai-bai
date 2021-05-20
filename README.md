@@ -50,7 +50,8 @@
 
 1. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
 2. İlk progamı geliştireceğiz ve txt içerisinde kayıt edilen verileri bir algoritma ile şifreleyeceğiz. Doğrudan txt'yi açtığımızda veriler okunamaz olmalı.
-3. Grafik kütüphanelerinden birisini kullanarak pong oyunu yapın.
+3. Grafik kütüphanelerini kullanarak pong oyunu yapın.
+4. Grafik kütüphanelerini kullanarak internet olmayınca çıkan dinazor oyununu yapın.
 
 ## Alp matrix taskları
 
