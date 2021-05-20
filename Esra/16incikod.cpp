@@ -12,8 +12,8 @@ int main()
       std::cin>>i;
       toplam=toplam+i;
       kacsayi=0;
-      kacsayi++;
  }
+      kacsayi++;
  ortalama=toplam/kacsayi;
  std::cout<<"ortalama:"<<ortalama<<std::endl;
     
