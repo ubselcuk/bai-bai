@@ -40,6 +40,22 @@
 27. Bulunduğu klasör içerisindeki tüm dosyaların adını yazan program
 28. Yeni bir txt dosyası oluşturup bu dosyanın içine Hello, World! yazdıran program
 
+## Linked List tasklari
+### Linked List cesitleri
+- Single linked list
+- Double linked list
+- Circular linked list
+
+### Linked List islemleri
+NOT: Bu islemler icin istediginiz linked list cesidini kullaniniz
+- Sona, basa ekleme
+- Ortaya ekleme
+- Sondan, bastan silme
+- Ortadan silme
+- Listede arama
+- Istediginiz herhangi bir algo ile listeyi siralama
+- Iki liste sirali merge islemi
+
 ## Orta Algoritma
 
 1. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
