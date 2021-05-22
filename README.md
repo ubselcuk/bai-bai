@@ -62,7 +62,7 @@
 3.  M matrixin elemanlarını ayrı bir şekilde yazdırın
 4.  M matrixi oluşturun ve kullanıcıdan girilen 2 sayı ile M matrix indexlerinin içeriğini değiştirin
 5.  M random matrix i oluşturun ve yazdırın 
-6.  M random matrixinizi yazdırın ve 5 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
+6.  M random matrixinizi yazdırın ve 4 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
 7.  M random matrixinizi yazdırın ve 5 ile çarpın ve yazdırın (ex: [1 2] --> [5,10])
 8.  5-N 1lerden oluşan bir matrix oluşturun orta kısımı(3N) 0 a çevirin
 9.  2 tane N random matrixi oluşturun ve toplayın sonucu yazdırın
