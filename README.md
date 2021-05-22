@@ -1,11 +1,4 @@
-
-- [git](https://git-scm.com/)
-- [mingw](http://mingw-w64.org/doku.php)
-- [atom](https://atom.io/)
-- [vs code](https://code.visualstudio.com/)
-- [raylib](https://www.raylib.com/)
-- [tkinter](https://docs.python.org/3/library/tkinter.html)
-- [neovim](https://neovim.io/)
+[git](https://git-scm.com/) [mingw](http://mingw-w64.org/doku.php) [atom](https://atom.io/) [vs code](https://code.visualstudio.com/) [raylib](https://www.raylib.com/) [tkinter](https://docs.python.org/3/library/tkinter.html) [neovim](https://neovim.io/)
 
 ## Basit Algoritma
 
@@ -40,11 +33,47 @@
 27. Bulunduğu klasör içerisindeki tüm dosyaların adını yazan program
 28. Yeni bir txt dosyası oluşturup bu dosyanın içine Hello, World! yazdıran program
 
+## Linked list taskları
+
+- Linked list çeşitleri = single, double, circular.
+- Bu işlemler için istediğiniz linked listi kullanabilirsiniz.
+
+1. Sona ve başa ekleme
+2. Ortaya ekleme
+3. Sondan ve baştan silme
+4. Ortadan silme
+5. Listede arama
+6. Bir algoritma ile listeyi sıralama
+7. İki liste sıralı merge işlemi
+
 ## Orta Algoritma
 
 1. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
 2. İlk progamı geliştireceğiz ve txt içerisinde kayıt edilen verileri bir algoritma ile şifreleyeceğiz. Doğrudan txt'yi açtığımızda veriler okunamaz olmalı.
-3. Grafik kütüphanelerinden birisini kullanarak pong oyunu yapın.
+3. Grafik kütüphanelerini kullanarak pong oyunu yapın.
+4. Grafik kütüphanelerini kullanarak internet olmayınca çıkan dinazor oyununu yapın.
+
+## Alp matrix taskları
+
+- N bir kare(Min 2x2), M bir kare olmayan(Min 2x3 ya da 3x2) matrix olmak üzere,
+
+1.  N matrixi oluşturun ve yazdırın
+2.  M matrixi oluşturun ve yazdırın
+3.  M matrixin elemanlarını ayrı bir şekilde yazdırın
+4.  M matrixi oluşturun ve kullanıcıdan girilen 2 sayı ile M matrix indexlerinin içeriğini değiştirin
+5.  M random matrix i oluşturun ve yazdırın 
+6.  M random matrixinizi yazdırın ve 5 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
+7.  M random matrixinizi yazdırın ve 5 ile çarpın ve yazdırın (ex: [1 2] --> [5,10])
+8.  5-N 1lerden oluşan bir matrix oluşturun orta kısımı(3N) 0 a çevirin
+9.  2 tane N random matrixi oluşturun ve toplayın sonucu yazdırın
+10. N matrixi oluşturun transpose'unu alın sonucu yazdırın
+11. M matrixi oluşturun transpose'unu alın sonucu yazdırın
+12. 2 tane N random matrixi oluşturun ve bunları çarpın sonucu yazdırın
+13. 2 tane M random matrixi oluşturun ve toplayın sonucu yazdırın
+14. 2 tane M random matrix çarpın sonucu yazdırın
+15. 2x2 bir matrixin determinantını alın
+
+16-30 Yukarıdaki her görevi fonksiyonlar ile yapın 
 
 ## Boris isteğe bağlı tatsız tasklar
 
