@@ -1,22 +1,22 @@
-#include <iostream>
+#include<iostream>
 
 int main()
 {
+ 
+ int i,kacsayi=0;
+ float ortalama=0;
+ int toplam=0;
+ 
+ while(i != -1)
+ {
+      std::cout<<"Sayi girin:"<<std::endl;
+      std::cin>>i;
+      toplam=toplam+i;
+       kacsayi++;
+ }
+kacsayi--;
+ toplam++; 
+ ortalama=toplam/kacsayi;
+ std::cout<<"ortalama:"<<ortalama<<std::endl;
 
-    float toplam = 0;
-    int sayi = 0;
-    int input;
-
-    while (input != -1)
-    {
-        std::cout << "Sayi giriniz: ";
-        std::cin >> input;
-
-        toplam = toplam + input;
-        sayi++;
-    }
-
-    std::cout << "Aritmetik ortalama: " << ((toplam + 1) / (sayi - 1));
-
-    return 0;
 }
