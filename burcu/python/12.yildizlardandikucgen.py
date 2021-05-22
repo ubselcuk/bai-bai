@@ -5,5 +5,5 @@ while n > a:
     while b >= 0:
         print("*",end="")
         b -= 1
-    print("\n")
+    print("")
     a += 1
