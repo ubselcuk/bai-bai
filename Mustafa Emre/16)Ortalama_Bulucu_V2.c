@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main (void){
-	float x = 0 , ortalama = 0;
-	printf("-1 girilmedigi surece ortlamaya sayilar eklenmeye devam edecek");
+	float x = 0 , ortalama = 0, counter = 0;
 	while(x != -1){
-		ortalama = (ortalama + x)/2;
 		printf("\nortalama eklenecek sayi:");
 		scanf("%f",&x);
+        if (x!=-1){
+            ortalama = ortalama + x;
+            counter++;
+        }     
 	}
-	printf("\ngirilen sayılarin ortalamasi:%f",ortalama);
+	printf("\ngirilen sayılarin ortalamasi:%f",ortalama/counter);
 	return 0;
 }
-
