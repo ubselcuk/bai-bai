@@ -21,7 +21,7 @@
 15. Faktöriyel hesabı yapan program
 16. Kullanıcı -1 girene kadar girilen sayıların ortalamasını bulan program
 17. Girilen N sayısının asal olup olmadığını bulan program
-19. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
+18. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
 19. Basit hesap makinası programı
 20. Basit hesap makinası ama işlemleri yaptırmak için fonksiyon kullanılacak
 21. Girilen vize ve final notlarına göre öğrencinin dersten geçip geçmediğini bulan program
