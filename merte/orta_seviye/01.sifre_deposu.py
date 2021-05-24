@@ -1,6 +1,6 @@
 import os
 #? Debug modu | Otomatik superuser
-debug=True
+debug=False
 def clear():
     if os.name == 'nt':
         os.system('cls')
