@@ -21,7 +21,7 @@
 15. Faktöriyel hesabı yapan program
 16. Kullanıcı -1 girene kadar girilen sayıların ortalamasını bulan program
 17. Girilen N sayısının asal olup olmadığını bulan program
-19. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
+18. 2 kenarı verilen dik üçgenin 3. kenarını bulan program
 19. Basit hesap makinası programı
 20. Basit hesap makinası ama işlemleri yaptırmak için fonksiyon kullanılacak
 21. Girilen vize ve final notlarına göre öğrencinin dersten geçip geçmediğini bulan program
@@ -62,7 +62,7 @@
 3.  M matrixin elemanlarını ayrı bir şekilde yazdırın
 4.  M matrixi oluşturun ve kullanıcıdan girilen 2 sayı ile M matrix indexlerinin içeriğini değiştirin
 5.  M random matrix i oluşturun ve yazdırın 
-6.  M random matrixinizi yazdırın ve 5 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
+6.  M random matrixinizi yazdırın ve 4 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
 7.  M random matrixinizi yazdırın ve 5 ile çarpın ve yazdırın (ex: [1 2] --> [5,10])
 8.  5-N 1lerden oluşan bir matrix oluşturun orta kısımı(3N) 0 a çevirin
 9.  2 tane N random matrixi oluşturun ve toplayın sonucu yazdırın
