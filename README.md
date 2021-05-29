@@ -1,5 +1,17 @@
 [git](https://git-scm.com/) [mingw](http://mingw-w64.org/doku.php) [atom](https://atom.io/) [vs code](https://code.visualstudio.com/) [raylib](https://www.raylib.com/) [tkinter](https://docs.python.org/3/library/tkinter.html) [neovim](https://neovim.io/)
 
+## Debugger
+
+Hic bir yazilmci debbug ogrenmeden etkli bir sekilde calisamaz. 
+
+DEBUG OGRENIN
+
+- Bunu bir odev olarak farz edin
+- Debugger ayarlayin ve calismaya hazir hale getirin
+- Bu odevi calisan debug ekranin SS lerini atarak teslim edebilirsiniz
+
+[Debugging](https://code.visualstudio.com/docs/editor/debugging)
+
 ## Code formatter
 TODO: Turkce karakter ve imla (KLAVYEMDE TURKCE KARAKTER YOH)
 
