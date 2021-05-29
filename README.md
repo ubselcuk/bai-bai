@@ -86,13 +86,22 @@ Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevler
 
 - Windows subsystem for linux nedir öğrenin, kullanmaya çalışın  
 
-## Denis extra hardcore tasklar
+## Denis cift kislik tasklar
 
-- Windows sil
-- Linux kur
-- Tanriyi terk et
+- Bu tasklar icin kendinize bir es bulun, onunla bu tasklari paylasin.
+- Amaciniz ayni anda ayni kod ustunde calismaniz
+- Birbirinizi engelemeden ilerleyiniz
+- Ayni dosya ustunde iki farkli insanin commitleri olmasi lazim.
+- Kodu birbirinizle git ten farkli bir kanala paylasmayiniz
+- Cikan merge conflictleri git way cozunuz
+- Daha kolay takip edebilmemiz icin asagidaki tabloyu doldurunuz
+- Bu taskalr icin lutfen daha detayli commit mesajlari kullanin
 
-01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
+| Birinci uye | ikinci uye |
+|-------|-------|
+| Denis | Baris |
+
+01. Hesap makinesi yaziniz. En azindan 4 islem yapan hesap makinesi istiyorum. Hesap makinesinin bir menusu olsun. Menusu yu ekibin bir uyesi. Matematiksel islemlerini ekibin obur uyesi yazsin.
 
 ## Boris icin ozel tasklar
 
