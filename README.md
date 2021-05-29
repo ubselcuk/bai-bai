@@ -2,7 +2,9 @@
 
 ## Code formatter
 TODO: Turkce karakter ve imla (KLAVYEMDE TURKCE KARAKTER YOH)
-Yazilim dilleri icin fomatterlar gelistirildi bular sizin kodunuz otomatik olarak kodun mantigini DEGISTIRMEDEN guzel ve okunakli sekle getiriyor.
+
+Yazilim dilleri icin fomatterlar gelistirildi bular sizin kodunuzu otomatik olarak (kodun mantigini DEGISTIRMEDEN) guzel ve okunakli sekle getiriyor.
+
 Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevlerde ve daha once yazmis oldugunuz odevlerde kullanabilirsiniz. 
 [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
 
