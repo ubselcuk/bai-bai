@@ -43,6 +43,7 @@ Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevler
 
 - Linked list çeşitleri = single, double, circular.
 - Bu işlemler için istediğiniz linked listi kullanabilirsiniz.
+- Bu islemler icin menu gelistiriniz, kac tane task varsa o kadar menu itemi yapiniz
 
 1. Sona ve başa ekleme
 2. Ortaya ekleme
