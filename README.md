@@ -1,5 +1,11 @@
 [git](https://git-scm.com/) [mingw](http://mingw-w64.org/doku.php) [atom](https://atom.io/) [vs code](https://code.visualstudio.com/) [raylib](https://www.raylib.com/) [tkinter](https://docs.python.org/3/library/tkinter.html) [neovim](https://neovim.io/)
 
+## Code formatter
+TODO: Turkce karakter ve imla (KLAVYEMDE TURKCE KARAKTER YOH)
+Yazilim dilleri icin fomatterlar gelistirildi bular sizin kodunuz otomatik olarak kodun mantigini DEGISTIRMEDEN guzel ve okunakli sekle getiriyor.
+Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevlerde ve daha once yazmis oldugunuz odevlerde kullanabilirsiniz. 
+[ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
+
 ## Basit Algoritma
 
 - N, kullanıcının girdiği bilgidir.
