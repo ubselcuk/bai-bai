@@ -2,7 +2,7 @@
 
 ## Debugger
 
-Hic bir yazilmci debbug ogrenmeden etkli bir sekilde calisamaz. 
+Hic bir yazilmci debug ogrenmeden etkli bir sekilde calisamaz. 
 
 DEBUG OGRENIN
 
