@@ -110,10 +110,11 @@ Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevler
 - Cikan merge conflictleri git way cozunuz
 - Daha kolay takip edebilmemiz icin asagidaki tabloyu doldurunuz
 - Bu taskalr icin lutfen daha detayli commit mesajlari kullanin
+- Bu tasklar icin ikinizde ayni formatlamaya sadik kalmaniz lazim.
 
-| Birinci uye | ikinci uye |
-|-------|-------|
-| Denis | Boris |
+| Birinci uye | ikinci uye | Done? |
+|-------|-------|-------|
+| Denis | Boris | :heavy_check_mark: |
 
 01. Hesap makinesi yaziniz. En azindan 4 islem yapan hesap makinesi istiyorum. Hesap makinesinin bir menusu olsun. Menusu yu ekibin bir uyesi. Matematiksel islemlerini ekibin obur uyesi yazsin.
 
