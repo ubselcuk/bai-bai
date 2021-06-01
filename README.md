@@ -113,7 +113,7 @@ Goreviniz bunlari arastirmak ve kodlarinizda kullanmak. Yeni yazicaginiz odevler
 
 | Birinci uye | ikinci uye |
 |-------|-------|
-| Denis | Baris |
+| Denis | Boris |
 
 01. Hesap makinesi yaziniz. En azindan 4 islem yapan hesap makinesi istiyorum. Hesap makinesinin bir menusu olsun. Menusu yu ekibin bir uyesi. Matematiksel islemlerini ekibin obur uyesi yazsin.
 
