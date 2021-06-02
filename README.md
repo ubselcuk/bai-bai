@@ -125,6 +125,9 @@ Göreviniz bunları araştırmak ve kodlarınızda kullanmak. Yeni yazdığını
 
 01. Hesap makinesi yaziniz. En azindan 4 islem yapan hesap makinesi istiyorum. Hesap makinesinin bir menusu olsun. Menusu yu ekibin bir uyesi. Matematiksel islemlerini ekibin obur uyesi yazsin.
 
+## Peki ya siz ne istiyorsunuz?
+- Anlatmamizi istediginiz yada odev almak istediginiz ozel bir konu varsa sormaktan cekinmeyin. Birseyler dusunmeye calisiriz. 
+
 ## Boris icin ozel tasklar
 
 1. Docker kur
