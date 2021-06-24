@@ -1,4 +1,31 @@
-[git](https://git-scm.com/) [mingw](http://mingw-w64.org/doku.php) [atom](https://atom.io/) [vs code](https://code.visualstudio.com/) [raylib](https://www.raylib.com/) [tkinter](https://docs.python.org/3/library/tkinter.html) [neovim](https://neovim.io/)
+# BAI-BAI
+
+Merhabalar, bai-bai reposuna hoş geldiniz. Kendinizi geliştirmek istiyorsanız bu alanda çalışabilirsiniz.
+
+Çalışmaya başlamadan önce sizden beklentimiz ortalama bir git bilgisine sahip olmanız. Kendinize bir repo açıp deneme yanılma yolu ile kendinizi geliştirin. Daha sonrasında bu repoyu forklayarak kendinize bir klasör oluşturup çalışmaya başlayabilirsiniz. Takıldığınız yerlerde başka insanların kodlarına da bakabilirsiniz. Başkalarının kodlarını kopyalamayacağınızı umuyoruz. Zaten herhangi bir notlandırma olmayacak kendinizi kandırmayın. Bir yerde takılıp yapamıyorsanız araştırma yapıp öğrenmeye çalışın. Kolaya kaçarsanız kaybedersiniz. 
+
+Github desktop veya internet sitesi üstünden çalışmanızı istemiyoruz. Linux veya [wsl](https://docs.microsoft.com/en-us/windows/wsl/install-win10) kullanıyorsanız terminal üzerinden, windows kullanıyorsanız [git bash](https://git-scm.com/) kullanarak çalışabilirsiniz.
+
+C veya C++ çalışacaksanız derlemek için linux kullanıyorsanız [gcc](https://gcc.gnu.org), windows kullanıyorsanız [mingw](http://mingw-w64.org/doku.php) kullanabilirsiniz.
+
+Code editor olarak [vs code](https://code.visualstudio.com/), [atom](https://atom.io/), [vim](https://www.vim.org), [neovim](https://neovim.io/) gibi programlar kullanabilirsiniz. Temelde yazı yazabildiğiniz her şeyi kullanabilirsiniz. Microsoft word dahil [xd](https://www.youtube.com/watch?v=X34ZmkeZDos). İstediğiniz ide'yi seçebilirsiniz ancak visual studio kullanıp mingw ile debug etmek gibi saçma şeyler yapmayın.
+
+Debugger, editor, compiler ayrı ayrı uğraşmak istemiyorum diyorsanız [visual studio](https://visualstudio.microsoft.com) veya [clion](https://www.jetbrains.com/clion/) gibi programları kullanabilirsiniz. Eğer github [education pack](https://education.github.com/pack)'iniz varsa ücretsiz bir şekilde clion veya jetbrains'in diğer ürünlerini kullanabilirsiniz.
+
+## Debugger
+
+Hiçbir yazılımcı debug öğrenmeden etkili bir şekilde çalışamaz, DEBUG ÖĞRENİN!
+
+[Debugger](https://code.visualstudio.com/docs/editor/debugging) ayarlayın ve çalışmaya hazır hale getirin.
+Çalışan bir debug ekranının SS'lerini atabilirsiniz.
+
+## Code Formatter
+
+Yazılım dilleri için farklı formatterlar geliştirildi ve bunlar kod yazarken otomatik olarak yazıları güzel ve okunaklı hale getiriyor.
+
+Göreviniz bunları araştırmak ve kodlarınızda kullanmak. Yeni yazdığınız ödevlerde veya eskiden yapmış olduklarınızda kullanabilirsiniz.
+
+[ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
 
 ## Basit Algoritma
 
@@ -32,40 +59,42 @@
 26. 10'luk tabanda girilen sayının 16'lık ve 2'lik tabanda değerini yazan program   
 27. Bulunduğu klasör içerisindeki tüm dosyaların adını yazan program
 28. Yeni bir txt dosyası oluşturup bu dosyanın içine Hello, World! yazdıran program
+29. Asal sayilari sieve of eratosthenes metodunu kullanarak bulunuz ve ekrana yazdiriniz
 
 ## Linked list taskları
 
 - Linked list çeşitleri = single, double, circular.
 - Bu işlemler için istediğiniz linked listi kullanabilirsiniz.
+- Bu islemler icin menu gelistiriniz, kac tane task varsa o kadar menu itemi yapiniz
 
-1. Sona ve başa ekleme
-2. Ortaya ekleme
-3. Sondan ve baştan silme
-4. Ortadan silme
-5. Listede arama
-6. Bir algoritma ile listeyi sıralama
-7. İki liste sıralı merge işlemi
+01. Sona ve başa ekleme
+02. Ortaya ekleme
+03. Sondan ve baştan silme
+04. Ortadan silme
+05. Listede arama
+06. Bir algoritma ile listeyi sıralama
+07. İki liste sıralı merge işlemi
 
 ## Orta Algoritma
 
-1. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
-2. İlk progamı geliştireceğiz ve txt içerisinde kayıt edilen verileri bir algoritma ile şifreleyeceğiz. Doğrudan txt'yi açtığımızda veriler okunamaz olmalı.
-3. Grafik kütüphanelerini kullanarak pong oyunu yapın.
-4. Grafik kütüphanelerini kullanarak internet olmayınca çıkan dinazor oyununu yapın.
+01. Program bir txt dosyası oluşturacak, girilen kullanıcı adı ve şifreleri bu txt içerisinde depolayacak. Kayıtlı olan bütün şifreleri görmek için sizden bir şifre girmenizi isteyecek.
+02. İlk progamı geliştireceğiz ve txt içerisinde kayıt edilen verileri bir algoritma ile şifreleyeceğiz. Doğrudan txt'yi açtığımızda veriler okunamaz olmalı.
+03. Grafik kütüphanelerini kullanarak pong oyunu yapın.
+04. Grafik kütüphanelerini kullanarak internet olmayınca çıkan dinazor oyununu yapın.
 
 ## Alp matrix taskları
 
 - N bir kare(Min 2x2), M bir kare olmayan(Min 2x3 ya da 3x2) matrix olmak üzere,
 
-1.  N matrixi oluşturun ve yazdırın
-2.  M matrixi oluşturun ve yazdırın
-3.  M matrixin elemanlarını ayrı bir şekilde yazdırın
-4.  M matrixi oluşturun ve kullanıcıdan girilen 2 sayı ile M matrix indexlerinin içeriğini değiştirin
-5.  M random matrix i oluşturun ve yazdırın 
-6.  M random matrixinizi yazdırın ve 4 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
-7.  M random matrixinizi yazdırın ve 5 ile çarpın ve yazdırın (ex: [1 2] --> [5,10])
-8.  5-N 1lerden oluşan bir matrix oluşturun orta kısımı(3N) 0 a çevirin
-9.  2 tane N random matrixi oluşturun ve toplayın sonucu yazdırın
+01.  N matrixi oluşturun ve yazdırın
+02.  M matrixi oluşturun ve yazdırın
+03.  M matrixin elemanlarını ayrı bir şekilde yazdırın
+04.  M matrixi oluşturun ve kullanıcıdan girilen 2 sayı ile M matrix indexlerinin içeriğini değiştirin
+05.  M random matrix i oluşturun ve yazdırın 
+06.  M random matrixinizi yazdırın ve 4 ekleyin ve yazdırın (ex: [1 2] --> [5,6])
+07.  M random matrixinizi yazdırın ve 5 ile çarpın ve yazdırın (ex: [1 2] --> [5,10])
+08.  5-N 1lerden oluşan bir matrix oluşturun orta kısımı(3N) 0 a çevirin
+09.  2 tane N random matrixi oluşturun ve toplayın sonucu yazdırın
 10. N matrixi oluşturun transpose'unu alın sonucu yazdırın
 11. M matrixi oluşturun transpose'unu alın sonucu yazdırın
 12. 2 tane N random matrixi oluşturun ve bunları çarpın sonucu yazdırın
@@ -79,13 +108,26 @@
 
 - Windows subsystem for linux nedir öğrenin, kullanmaya çalışın  
 
-## Denis extra hardcore tasklar
+## Denis cift kislik tasklar
 
-- Windows sil
-- Linux kur
-- Tanriyi terk et
+- Bu tasklar icin kendinize bir es bulun, onunla bu tasklari paylasin.
+- Amaciniz ayni anda ayni kod ustunde calismaniz
+- Birbirinizi engelemeden ilerleyiniz
+- Ayni dosya ustunde iki farkli insanin commitleri olmasi lazim.
+- Kodu birbirinizle git ten farkli bir kanala paylasmayiniz
+- Cikan merge conflictleri git way cozunuz
+- Daha kolay takip edebilmemiz icin asagidaki tabloyu doldurunuz
+- Bu taskalr icin lutfen daha detayli commit mesajlari kullanin
+- Bu tasklar icin ikinizde ayni formatlamaya sadik kalmaniz lazim.
 
-01. Hesap makinesi yazin. Yalniz Alp ana menuyu, berke * ve +  ve esra / ve - kisimlarini yazicak. Hepiniz ayni dosya icinde yapicaksiniz ve birbirinizi engelemeden ilerlemeniz lazim, cikan merge conflictleri cozun. Baskasinin yapicagi isi siz yapmayiniz.
+| Birinci uye | ikinci uye | Done? |
+|-------|-------|-------|
+| Denis | Boris | :heavy_check_mark: |
+
+01. Hesap makinesi yaziniz. En azindan 4 islem yapan hesap makinesi istiyorum. Hesap makinesinin bir menusu olsun. Menusu yu ekibin bir uyesi. Matematiksel islemlerini ekibin obur uyesi yazsin.
+
+## Peki ya siz ne istiyorsunuz?
+- Anlatmamizi istediginiz yada odev almak istediginiz ozel bir konu varsa sormaktan cekinmeyin. Birseyler dusunmeye calisiriz. 
 
 ## Boris icin ozel tasklar
 
