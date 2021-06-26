@@ -1,7 +1,6 @@
-n = int(input("Bir sayı girin: "))
+n = int(input("Bir doğal sayı girin: "))
 
-x = 0
-for sayi in range(n):
- 	x=x+sayi
-
-print(x)
+toplam=0
+for i in range(1, n):
+	toplam += i
+print(toplam)

@@ -1,15 +1,12 @@
-tekler_toplami = 0
-ciftler_toplami = 0
+n = int(input("Bir doğal sayı girin: "))
 
-n = int(input("Bir sayı girin: "))
+tekler = 0
+ciftler = 0
 while n > 0:
     if n%2 == 0:
-        ciftler_toplami = ciftler_toplami + n
-    
+        ciftler += n
     else:
-        tekler_toplami = tekler_toplami + n
-    
-    n=n-1
+        tekler += n
+    n-=1
 
-print(f'Tekler toplami: {tekler_toplami}, Çiftler toplami: {ciftler_toplami}')
-
+print('Tekler toplami: {}, Çiftler toplami: {}'.format(tekler, ciftler))

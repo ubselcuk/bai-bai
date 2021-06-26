@@ -1,3 +1,2 @@
-metin = input('Metin girin: ')
-karakterler = list(metin)
-for i in karakterler: print(f'{i} : {ord(i)}')
+metin = list(input('Metin girin: '))
+for i in metin: print(f'{i} : {ord(i)}')

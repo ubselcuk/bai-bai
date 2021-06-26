@@ -1,2 +1,1 @@
-metin = input('Metin girin: ')
-print(metin[::-1])
+print(str(input('Metin girin: ')[::-1]))

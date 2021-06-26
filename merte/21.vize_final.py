@@ -10,7 +10,7 @@ try:
     sonuc= ((vize/100)*40)+((final/100)*60)
 except Exception as e:
     print('Hata:', e)
-    sys:exit(0)
+    quit()
 
 if sonuc >= 70: 
     print('Tebrikler! basariyla gectin,', end=' ')

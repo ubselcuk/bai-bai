@@ -1,10 +1,8 @@
-from curses.ascii import islower
-metin = input('Metin girin: ')
-karakterler = list(metin)
+import curses.ascii as ascii
+metin = list(input('Metin girin: '))
 
-for i in karakterler:
-    if islower(i):
-        i = i.upper()
+for i in metin:
+    if ascii.islower(i):
         print(f'{i} : {ord(i)}')
     else:
         print(f'{i} : {ord(i)}')

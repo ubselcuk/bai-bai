@@ -1,14 +1,7 @@
-i= int(input('Kaç sayinin en büyüğü alinacak: '))
+i = int(input('Toplam kaç sayi gireceksin?\n>'))
 
-liste = []
-for each in range(1, i+1):
-    x = int(input(f'{each}. sayiyi girin: '))
-    liste.append(x)
-en_buyuk = liste[0]
-
-for sayi in liste:
-    if sayi > en_buyuk:
-        en_buyuk=sayi
-liste.sort(int)
-
-print(f'{liste} \nIcerisinden en büyük sayi: {en_buyuk}')
+en_buyuk = 0
+for num in range(1, i+1):
+    sayi = int(input(f'{num}.sayi > '))
+    if sayi > en_buyuk: en_buyuk = sayi
+print('Girilen en büyük sayı:', en_buyuk)
