@@ -9,7 +9,7 @@ class Main {
         
         int total=0;
         for (int i=Math.abs(input); i>0 ; i--)
-            total+=Math.pow(i,i);
+            total+=Math.pow(i,2);
         System.out.println(input + "'a kadar olan sayilarin karesi: " + total);
     }
 }
