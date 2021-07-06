@@ -1,0 +1,1 @@
+print(float(input('1. Sayi: '))+float(input('2. Sayi: ')))

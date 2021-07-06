@@ -15,18 +15,18 @@ def hipotenus(x,y):
     h=(x*x)+(y*y)
     return sqrt(h)
 
-print(f'''
+print('''
       Yan Kenar hesaplamak için 1'i tuşlayın
       Hipotenüs hesaplamak için 2'yi tuşlayın
       ''')
-a=None
+      
 while True:
     try:
         a= int(input('> '))
-    except ValueError:
-        print("Lutfen 1 veya 2'yi tuşlayin!")
-    if a==2 or a==1:
-        break
+        if a==1 or a==2: break
+        else: raise ValueError("Lutfen 1 veya 2'yi tuşlayin!")
+    except Exception as e:
+        print('Hata:', e)
 if a==1:
     mod='Yan Kenar'
     print('Mod:', mod)
