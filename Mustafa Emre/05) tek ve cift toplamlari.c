@@ -12,7 +12,7 @@ int main(){
     {
         t+=i;
     }
-    printf("x sayisina kadar olan cift sayilarin toplami: %d\nx sayisina kadar olan çift sayilarin toplami: %d",c,t);
+    printf("x sayisina kadar olan cift sayilarin toplami: %d\nx sayisina kadar olan tek sayilarin toplami: %d",c,t);
 	
 	return 0;
 }
