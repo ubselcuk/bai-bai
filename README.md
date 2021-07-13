@@ -12,6 +12,18 @@ Code editor olarak [vs code](https://code.visualstudio.com/), [atom](https://ato
 
 Debugger, editor, compiler ayrı ayrı uğraşmak istemiyorum diyorsanız [visual studio](https://visualstudio.microsoft.com) veya [clion](https://www.jetbrains.com/clion/) gibi programları kullanabilirsiniz. Eğer github [education pack](https://education.github.com/pack)'iniz varsa ücretsiz bir şekilde clion veya jetbrains'in diğer ürünlerini kullanabilirsiniz.
 
+## gitignore
+
+TODO: Turkce yi duzeltmek
+
+Kendi klasorunuz altina size ait olan gitignore dosayasi ekleyebilirsiniz global bir tane eklemeyin. Bunu ayni zamanda odev olarak dusenebilirsiniz.
+
+## Pull Request
+
+TODO: Turkce yi duzeltmek (sadece turkce harfleri barindirdan kucuk numpad tarzinda klavye alicam heralde)
+
+Bir tane Pull Requeste sadece bir tane odev olsun (dikkat edin 1 tane commit demiyorum).Pull requeste duzeltme yapiyorsaniz ise o zaman odev eklemeyin. #68 ve #67 bu sekilde kabul edilmis son karisik pull requstler bir daha onlara benzeyen pull request kabul etmem.
+
 ## Debugger
 
 Hiçbir yazılımcı debug öğrenmeden etkili bir şekilde çalışamaz, DEBUG ÖĞRENİN!
