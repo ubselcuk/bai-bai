@@ -23,7 +23,7 @@ print('''
 while True:
     try:
         a= int(input('> '))
-        if a==1 or a==2: break
+        if a in [1,2]: break
         else: raise ValueError("Lutfen 1 veya 2'yi tuşlayin!")
     except Exception as e:
         print('Hata:', e)

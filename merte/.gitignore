@@ -1,7 +1,6 @@
 #bai-bai/merte/
-test.py
-temp/**
-**__pycache__
-**vscode
-python/tier_two/temp.py
-java/compiled_files/**
+test*
+build*
+__pycache__/
+.vscode/
+temp/
