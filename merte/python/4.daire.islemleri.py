@@ -1,5 +1,1 @@
-pi = 3.14159265358979323846
-r = float(input('Yaricap girin: '))
-alan = round(pi*r**2, 4)
-cevre = round(2*pi*r, 4)
-print(f'Alan: {alan} , Cevre: {cevre}')
+print("Yarıçap:",r:=float(input('Yaricap girin: ')), f'Alan: {round(3.14*r**2, 4)} , Cevre: {round(2*3.14*r, 4)}')

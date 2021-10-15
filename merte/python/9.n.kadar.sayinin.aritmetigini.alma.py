@@ -1,7 +1,1 @@
-i= int(input('Kaç sayinin aritmetik ortalamasi alinacak: '))
-toplam=0
-for each in range(1, i+1):
-    x = float(input(f'{each}. sayiyi girin: '))
-    toplam+=x
-
-print(f'Aritmetik ortalama: {toplam/i}')
+l = [float(input(f'{i}. sayiyi girin: ')) for i in range(1, int(input('Kaç sayinin aritmetik ortalamasi alinacak: '))+1)]; print("Aritmetik ortalama:", sum(l)/len(l))
