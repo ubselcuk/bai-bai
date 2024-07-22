@@ -1,17 +1,27 @@
 import os
+from cryptography.fernet import Fernet
 
 fname = "passwords.txt"
+key = Fernet.generate_key()
+wee = Fernet(key)
 fpass = "iiii"  # Ana şifre
+
+def encrypt(data):
+    return wee.encrypt(data.encode()).decode()
+
+def decrypt(data):
+    return wee.decrypt(data.encode()).decode()
 
 def registry(name, password):
     with open(fname, "a") as file:
-        file.write(f"{name}:{password}\n")
+        encrypted_data = encrypt(f"{name}:{password}")
+        file.write(f"{encrypted_data}\n")
 
 def fread():
     if not os.path.exists(fname):
         return []
     with open(fname, "r") as file:
-        items = [line.strip().split(":") for line in file]
+        items = [decrypt(line.strip()).split(":") for line in file]
     return items
 
 def main_password():
