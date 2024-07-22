@@ -1,10 +1,23 @@
 import os
 from cryptography.fernet import Fernet
 
-fname = "passwords.txt"
-key = Fernet.generate_key()
-wee = Fernet(key)
+fname = "passwords.txt"  # Kayıt dosyası adı
+key_file = "secret.key"  # Anahtar dosyası
 fpass = "iiii"  # Ana şifre
+
+# Anahtarı oluşturma veya yükleme
+def load_or_generate_key():
+    if os.path.exists(key_file):
+        with open(key_file, "rb") as file:
+            key = file.read()
+    else:
+        key = Fernet.generate_key()
+        with open(key_file, "wb") as file:
+            file.write(key)
+    return key
+
+key = load_or_generate_key()
+wee = Fernet(key)
 
 def encrypt(data):
     return wee.encrypt(data.encode()).decode()
@@ -12,23 +25,23 @@ def encrypt(data):
 def decrypt(data):
     return wee.decrypt(data.encode()).decode()
 
-def registry(name, password):
+def registry(name, password):  # Kayıt
     with open(fname, "a") as file:
         encrypted_data = encrypt(f"{name}:{password}")
         file.write(f"{encrypted_data}\n")
 
-def fread():
+def fread():  # Veri çekme
     if not os.path.exists(fname):
         return []
     with open(fname, "r") as file:
         items = [decrypt(line.strip()).split(":") for line in file]
     return items
 
-def main_password():
+def main_password():  # Tasdik
     master_password = input("Lütfen ana şifreyi girin: ")
     return master_password == fpass
 
-def menu():
+def menu():  # Main
     while True:
         print("""\n                 1.Yeni kullanıcı adı ve şifre ekle
                  2.Kayıtlı şifreleri görüntüle
