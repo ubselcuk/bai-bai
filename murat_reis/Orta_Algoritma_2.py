@@ -1,7 +1,7 @@
 import os
 from cryptography.fernet import Fernet
 
-fname = "passwords.txt"  # Kayıt dosyası adı
+fname = "passwords_encrypted.txt"  # Kayıt dosyası adı
 key_file = "secret.key"  # Anahtar dosyası
 fpass = "iiii"  # Ana şifre
 
