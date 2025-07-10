@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int N, toplam = 0;
+    int N, toplam = 1;
 
     printf("Bir sayi girin: ");
     scanf("%d", &N);
