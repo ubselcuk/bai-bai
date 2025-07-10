@@ -1,0 +1,6 @@
+# Wisdom Quotes
+  - "Simplicity is the soul of efficiency." – Austin Freeman
+  - "Before software can be reusable it first has to be usable." – Ralph Johnson
+  - "Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+  - "The best way to get a project done faster is to start sooner." – Jim Highsmith
+  - "Controlling complexity is the essence of computer programming." – Brian Kernighan
