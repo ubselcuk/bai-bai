@@ -146,3 +146,47 @@ Göreviniz bunları araştırmak ve kodlarınızda kullanmak. Yeni yazdığını
 1. Docker kur
 2. Docker ile nginx (yada herahngi bisey bana farketmez) aya kaldir
 3. Kendin uygulamani dockerize et
+
+## Git Collaboration Task: Conflict Resolution with Merge or Rebase
+
+This task simulates a real-world scenario where multiple contributors modify the same file at the same time. You will learn how to deal with Git conflicts and understand the differences between merge and rebase strategies when integrating changes.
+The instructor has created the following structure in the repository:
+path: collab/quotes.txt
+data:
+Wisdom Quotes
+  - "Simplicity is the soul of efficiency." – Austin Freeman
+  - "Before software can be reusable it first has to be usable." – Ralph Johnson
+  - "Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+  - "The best way to get a project done faster is to start sooner." – Jim Highsmith
+  - "Controlling complexity is the essence of computer programming." – Brian Kernighan
+
+### Student Instructions
+1. **Fork and clone** the repository to your local environment.
+2. **Create a new feature branch** using your name.
+3. **Edit the `quotes.txt` file** by adding a new quote *directly below the first quote*.
+4. **Save, commit, and push** your changes to your remote branch.
+5. **Open a Pull Request** (PR) to merge your feature branch into the `master` branch of the original repository.
+
+### Conflict Challenge
+Once one of the PRs is merged by the instructor, other PRs will face **conflicts** due to overlapping changes.
+
+You must now choose a strategy to resolve the conflict:
+#### Option 1: Merge Strategy
+- Update your branch with the latest changes from the `master` branch.
+- Resolve the conflict in the `quotes.txt` file.
+- Complete your PR after resolving the conflict.
+
+#### Option 2: Rebase Strategy
+- Rebase your branch onto the latest `master` branch.
+- Resolve each conflict as it appears during the rebase process.
+- Force push the updated branch to your remote and complete your PR.
+
+### Learning Outcomes
+- Understand **how merge conflicts occur** and how to resolve them.
+- Learn the difference between **merge** (preserves history) and **rebase** (linear history).
+- Practice **team collaboration** using GitHub and version control.
+- Improve your **conflict resolution** and Git workflow skills.
+
+### Bonus Challenge
+- One student **renames** the `quotes.txt` file.
+- Another student **edits its content** at the same time.
